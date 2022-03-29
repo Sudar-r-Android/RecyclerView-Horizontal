@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:layout_margin="8dp"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/sudaraddress"
+        android:gravity="center"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/sudar"
+            android:gravity="left"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="6"
+            android:singleLine="false"
+            android:lines="5"
+            android:text="Name : SUDAR \nAddress : Narayana Swami Kovil Street,
+Leppaikudieruppu \nPh : 9345239147"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="#269"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
